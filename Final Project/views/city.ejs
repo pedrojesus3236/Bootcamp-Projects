@@ -1,0 +1,83 @@
+<%- include partials/header.ejs %>
+
+<body>
+
+    <div class="intro">
+
+        <%- include partials/navbar.ejs %>
+
+        <div class="mobile__title">
+            <p>Reserve acomodações e experiências únicas.</p>
+        </div>
+
+    </div>
+    <!--intro-->
+
+    <div class="main">
+
+        <div class="explore">
+
+            <h2 class="explore__title">Explore
+                <%= city %>
+            </h2>
+
+            <div class="explore__main-row">
+
+                <div class="explore__row">
+                    <img src="https://a0.muscache.com/im/pictures/8b7519ec-2c82-4c09-8233-fd4d2715bbf9.jpg?aki_policy=large">
+                    <p class="casas">Casas</p>
+                </div>
+
+                <div class="explore__row">
+                    <img src="https://a0.muscache.com/im/pictures/cb8b3101-d419-4c17-8e2f-4989b39b98c3.jpg?aki_policy=large">
+                    <p>Experiências</p>
+                </div>
+
+                <div class="explore__row">
+                    <img src="https://a0.muscache.com/im/pictures/da2d8e97-90b7-409f-94ac-5ab0327c289b.jpg?aki_policy=large">
+                    <p>Restaurantes</p>
+                </div>
+
+            </div>
+
+        </div>
+        <!--explore-->
+
+        <div class="rating">
+            <h2 class="rating__title">Experiências com avaliações excelentes</h2>
+            <p class="rating__subtitle">Experiências com avaliações excelentes de moradores locais e de viajantes
+                globais</p>
+
+            <div class="rating__grid">
+
+                <% for (let i = 0; i < houses.length; i++) { %>
+
+                <div class="rating__item">
+                    <img src=<%= houses[i].image %>>
+                    <p class="rating__item--title">
+                        <%= houses[i].title %>
+                    </p>
+                    <p class="rating__item--subtitle">
+                        <%= houses[i].subtitle %>
+                    </p>
+                    <p class="rating__item--price">
+                        <%= houses[i].price %>
+                    </p>
+                    <p class="rating__item--rating">
+                        <%= houses[i].rating %>
+                    </p>
+                </div>
+
+                <% } %>
+            </div>
+
+        </div>
+        <!--rating-->
+
+    </div>
+    <!--main-->
+
+</body>
+
+
+</html>

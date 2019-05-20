@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Circular;
+    unicode-range: U+F0000-FFFFD;
+    font-size: 14px;
+    src: url("https://a0.muscache.com//airbnb/static/airbnb-dls-web/build/fonts/airmojix-Regular-366effb9c81975489f838264ba0b1b9e.woff2") format("woff2"),url("https://a0.muscache.com//airbnb/static/airbnb-dls-web/build/fonts/airmojix-Regular-7e7f7fe70edfe5c588188d4c92e140c0.woff") format("woff");
+    font-weight: 600;
+}
+
+form {   
+    width: 350px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+input {
+    padding: 10px 20px;
+    width: 100%;
+    margin: auto;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+button {
+    width: 100%;
+    margin-left: 25px;
+    margin-top: 15px;
+    padding: 10px 20px;
+}

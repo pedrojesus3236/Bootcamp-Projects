@@ -1,0 +1,79 @@
+
+body {
+
+  margin: 0;
+  padding: 0;
+  background-color: #232323;
+  font-family: Arial;
+  text-transform: uppercase;
+}
+
+.square {
+
+  width: 30%;
+  background: white;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.66%;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+#square__grid {
+  
+  margin: 20px auto;
+  width: 600px;
+}
+
+h1 {
+
+  color: white;
+  text-align: center;
+  background-color: rgb(70, 133, 185);
+  margin: 0;
+  padding: 20px;
+}
+
+#navbar {
+
+  background: white;
+  height: 30px;
+  text-align: center;
+}
+
+.selectedButton {
+
+  color: white;
+  background: rgb(70, 133, 185);
+}
+
+#rgbCode {
+
+  font-size: 70px;
+}
+
+button {
+
+  background: white;
+  font-family: Arial;
+  height: 100%;
+  font-weight: 800;
+  color: rgb(70, 133, 185);
+  font-size: 17px;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+}
+
+button:hover{
+
+  color: white;
+  background: rgb(70, 133, 185);
+  cursor: pointer;
+}
+
+#message{
+
+  display: inline-block;
+  width: 20%;
+}

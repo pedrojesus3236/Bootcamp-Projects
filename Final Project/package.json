@@ -1,0 +1,26 @@
+{
+  "name": "airbnb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js",
+    "airbnb": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/Barkaut/airbnb_pedro-jesus.git"
+  },
+  "author": "PJ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/Barkaut/airbnb_pedro-jesus/issues"
+  },
+  "homepage": "https://gitlab.com/Barkaut/airbnb_pedro-jesus#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.16"
+  }
+}
